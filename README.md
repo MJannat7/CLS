@@ -34,6 +34,7 @@ selection of 20 better articles from each language-domain pair to create this su
 
 ## Extractive Stage
 Input: For Initial-20 dataset, raw data files are used. For Curated-20 dataset, pre-processed data files are used as input of this stage.
+
 Next Step: The output of the extractive stage is further divided into train, test, and validation sets using the split scripts available in `CLS/Data/`. 
 
 ### Folder: `extractive/`
