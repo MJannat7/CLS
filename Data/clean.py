@@ -1,3 +1,5 @@
+"""This script cleans and normalizes data files of Curated-20. It removes noise such as URLs, emails, .com links, copyright notices, and MediaWiki
+artifacts, while normalizing whitespace and punctuation. The cleaned data is then fed into the Extractive stage. """
 import json
 import re
 import unicodedata
