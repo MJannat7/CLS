@@ -1,6 +1,7 @@
 """This code is a modified version provided at https://github.com/DhavalTaunk08/XWikiGen/tree/main"""
 """This module implements an extractive summarization approach based on masked language model (MLM) scoring. It extends Hugging Face's  `AutoModelForMaskedLM` 
-with custom loss computation, then uses it to rank candidate reference sentences and select the top-k most relevant ones for each section of a document."""
+with custom loss computation, then uses it to rank candidate reference sentences and select the top-k most relevant ones for each section of a document.
+The output files of the extractive stage is further divided into train, test, and validation sets using the split scripts available in CLS/Data/."""
 import sys
 import json
 import regex
